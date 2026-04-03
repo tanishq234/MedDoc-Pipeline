@@ -1,9 +1,4 @@
-"""
-main.py - FastAPI application.
-POST /api/process  - process a claim PDF
-GET  /health       - health check
-GET  /docs         - Swagger UI
-"""
+
 from __future__ import annotations
 import logging, os, traceback
 from contextlib import asynccontextmanager
